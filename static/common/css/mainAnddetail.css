@@ -1,0 +1,105 @@
+/* main 和 detail样式 */
+
+.con-div{
+    padding: 0 10px;
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+.weui-navbar+.weui-tab__bd {
+	padding-top: 38px;
+}
+
+.weui-navbar__item {
+	padding: 5px 0;
+}
+
+.weui-navbar__item {
+	color: #666;
+}
+
+.weui-navbar__item:after {
+	border: 0;
+}
+
+.weui-navbar__item.weui-bar__item--on {
+	color: #FF9900;
+	border-bottom: 3px solid #FF9900;
+	background-color: #fff;
+}
+
+.weui-tab__bd-item {
+	background: #fff;
+	position: relative;
+	padding-top: 40px;
+}
+.weui-media-box_appmsg .weui-media-box__hd {
+margin-right:0;
+     width: 100px;
+    height: 100px;
+    line-height: 60px;
+    text-align: center;
+}
+.weui-media-box__bd{
+  position:relative;
+}
+.weui-media-box_appmsg{
+    -webkit-box-align: normal; 
+     -webkit-align-items: normal; 
+    align-items: normal;
+}
+.swiper-slide {
+	color: #666;
+	text-align: center;
+	border-radius: 10px;
+}
+
+.tab-but {
+	width: 100%;
+	height: 40px;
+	padding-top: 7px;
+	position: absolute;
+	z-index: 500;
+	top: 0px;
+	left: 0;
+}
+.new-time{
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    font-size: 14px;
+    color: #666;
+}
+.new-but{
+    float: right;
+    margin-right: 10px;
+    border: 1px solid #2e8ded;
+    padding: 0px 5px;
+    border-radius: 10px;
+}
+
+
+.new-time1 {
+	padding: 10px 0;
+	width: 100%;
+	font-size: 14px;
+	color: #666;
+}
+
+.new-but1 {
+	float: right;
+	margin-right: 10px;
+	border: 1px solid #2e8ded;
+	padding: 0px 5px;
+	border-radius: 10px;
+}
+.item-center {
+	justify-content: center;
+	align-items: center;
+	display: -webkit-flex;
+}
+.weui-photo-browser-modal{
+z-index:9999999999999;
+}
+

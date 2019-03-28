@@ -1,0 +1,333 @@
+body {
+   /* background: #efeff4;*/
+    	font-family: 'Microsoft Yahei', SimSun, Tahoma, Helvetica, Arial, sans-serif;
+}
+
+.top-header-div {
+    overflow: hidden;
+    /*background: #0067F4;*/
+    height: 40px;
+    position: absolute;
+    z-index: 999;
+    top: 0;
+    width: 100%;
+}
+
+.top-right-icon {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: inline-block;
+    width: 50px;
+    height: 100%;
+    color: #000;
+    /* 	background: url(../../images/wechat/left.png) 16px 10px no-repeat; */
+}
+
+.top-right-icon:before {
+    content: " ";
+    display: inline-block;
+    height: 14px;
+    width: 14px;
+    border-width: 0px 0px 2px 2px;
+    border-color: #000;
+    border-style: solid;
+    -webkit-transform: matrix(.71, .71, -.71, .71, 0, 0);
+    transform: matrix(.71, .71, -.71, .71, 0, 0);
+    position: relative;
+    top: -2px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-top: -14%;
+    margin-left: -10%;
+    box-sizing: border-box;
+}
+
+.top-middle-text {
+    color: #000;
+    line-height: 40px;
+    padding: 0 72px 0 50px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.cont-parent-padding {
+    position: relative;
+    padding-top: 80px;
+}
+
+.content-box {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.header-box {
+    position: absolute;
+    top: 40px;
+    left: 0;
+    width: 100%;
+    height: 40px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 40px;
+}
+
+.header-box-Checked {
+    color: #2f90ea;
+    border-bottom: 2px solid #2f90ea;
+}
+
+.header-div {
+    width: 50%;
+    height: 100%;
+    float: left;
+}
+
+.content-one {
+    position: relative;
+    height: 100%;
+    top: 0px;
+    overflow: auto;
+    width: 100%;
+}
+
+.item-1 {
+    width: 100%;
+    height: 40px;
+    position: absolute;
+    top: 10px;
+    left: 0;
+}
+
+.header-left {
+    float: left;
+    width: 85%;
+    height: 100%;
+    position: relative;
+    border: 1px solid #CCCCCC;
+    border-radius: 5px;
+    /*padding-left: 50px;*/
+}
+
+.header-left input {
+    width: 100%;
+    height: 38px;
+    outline: none;
+    border: 1px;
+    padding-left: 50px;
+    background: url(${_images}/wechat/seo.png) 1px 1px no-repeat;
+}
+
+.list-ul {
+    width: 100%;
+    height: 100%;
+    overflow: auto;
+    padding-top: 10px;
+}
+
+.list-li {
+    position: relative;
+    padding: 0 10px;
+    background: #fff;
+    margin-bottom: 10px;
+}
+
+.list-li h4 {
+    table-layout: fixed;
+    word-break: break-all;
+}
+
+.list-li p {
+    color: #383838;
+    text-indent: 2em;
+}
+
+.list-li a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+}
+
+/*不同状态 的颜色*/
+.list-li .p-color1 {
+    color: #FFB400;
+}
+
+.list-li .p-color2 {
+    color: #17C671;
+}
+
+.list-li .p-color3 {
+    margin: 10px 0;
+    color: rgba(196, 24, 60, 0.8);
+}
+
+/*----------*/
+.list-li span {
+    margin-right: 10px;
+    font-size: 14px;
+}
+
+.list-li .span-color {
+    color: #2f90ea;
+}
+
+.content-hidden {
+    display: none;
+}
+
+.top-ul-1 li {
+    font-size: 12px;
+}
+
+/*  VUX的样式 */
+.vux-tab-ink-bar {
+    position: absolute;
+    height: 2px;
+    bottom: 0;
+    left: 0;
+    background-color: #FF9900;
+    text-align: center;
+}
+
+.vux-tab-ink-bar-transition-forward {
+    -webkit-transition: right 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1) 0.09s;
+    transition: right 0.3s cubic-bezier(0.35, 0, 0.25, 1), left 0.3s cubic-bezier(0.35, 0, 0.25, 1) 0.09s;
+}
+
+.vux-tab-ink-bar-transition-backward {
+    -webkit-transition: right 0.3s cubic-bezier(0.35, 0, 0.25, 1) 0.09s, left 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+    transition: right 0.3s cubic-bezier(0.35, 0, 0.25, 1) 0.09s, left 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+}
+
+.vux-tab-bar-top .vux-tab-ink-bar {
+    top: 0;
+}
+
+.vux-tab {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: flex;
+    background-color: #fff;
+    height: 44px;
+    position: relative;
+}
+
+.vux-tab button {
+    padding: 0;
+    border: 0;
+    outline: 0;
+    background: 0 0;
+    -webkit-appearance: none;
+    appearance: none;
+}
+
+.vux-tab .vux-tab-item {
+    display: block;
+    -webkit-box-flex: 1;
+    -webkit-flex: 1;
+    flex: 1;
+    width: 100%;
+    height: 100%;
+    box-sizing: border-box;
+    background: -webkit-linear-gradient(top, #e5e5e5, #e5e5e5, rgba(229, 229, 229, 0)) bottom left no-repeat;
+    background: linear-gradient(180deg, #e5e5e5, #e5e5e5, rgba(229, 229, 229, 0)) bottom left no-repeat;
+    background-size: 100% 1px;
+    font-size: 14px;
+    text-align: center;
+    line-height: 44px;
+    color: #666;
+}
+
+.vux-tab .vux-tab-item.vux-tab-selected {
+    color: #FF9900;
+    border-bottom: 3px solid #FF9900;
+}
+
+.vux-tab-bar-top .vux-tab .vux-tab-item {
+    background: -webkit-linear-gradient(top, #e5e5e5, #e5e5e5, rgba(229, 229, 229, 0)) top left no-repeat;
+    background: linear-gradient(180deg, #e5e5e5, #e5e5e5, rgba(229, 229, 229, 0)) top left no-repeat;
+    background-size: 100% 1px;
+}
+
+.vux-tab-bar-top .vux-tab .vux-tab-item.vux-tab-selected {
+    border-bottom: none;
+    border-top: 3px solid #FF9900;
+}
+
+.vux-tab .vux-tab-item.vux-tab-disabled {
+    color: #ddd;
+}
+
+.vux-tab.vux-tab-no-animate .vux-tab-item.vux-tab-selected {
+    background: 0 0;
+}
+
+/** when=prop:custom-bar-width **/
+.vux-tab-bar-inner {
+    display: block;
+    background-color: #FF9900;
+    margin: auto;
+    height: 100%;
+    -webkit-transition: width 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+    transition: width 0.3s cubic-bezier(0.35, 0, 0.25, 1);
+}
+
+.vux-tab-item-badge {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    height: 18px;
+    min-width: 18px;
+    padding: 0 4px;
+    border-radius: 30px;
+    margin: auto 0 auto 4px;
+    line-height: 18px;
+    font-size: 11px;
+    background-clip: padding-box;
+    vertical-align: middle;
+}
+
+.vux-tab-wrap {
+    position: relative;
+    padding-top: 44px;
+}
+
+.vux-tab-container {
+    height: 44px;
+    top: 100px;
+    left: 0;
+    right: 0;
+    overflow: hidden;
+    position: absolute;
+}
+
+.scrollable {
+    overflow-y: hidden;
+    overflow-x: auto;
+    -webkit-overflow-scrolling: touch;
+    padding-bottom: 17px;
+    box-sizing: content-box;
+}
+
+.scrollable::-webkit-scrollbar {
+    display: none;
+}
+
+.scrollable .vux-tab-ink-bar {
+    bottom: 17px;
+    position: absolute;
+}
+
+.scrollable .vux-tab-item {
+    -webkit-box-flex: 0;
+    -webkit-flex: 0 0 22%;
+    flex: 0 0 22%;
+}
+
